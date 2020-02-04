@@ -9,9 +9,8 @@ class Artist
     @songs = []
   end
   
-  def songs
-    artist.songs=self
-  end
+ def songs
+ end
 
   def add_song(song)
     song.artist = self
